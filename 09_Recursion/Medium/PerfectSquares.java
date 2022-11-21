@@ -51,7 +51,11 @@ public class PerfectSquares {
         }
         memo[n] = min;
         return min;
+      
 
+
+/** --------- Time LimitExceeded -----------**/
+      
 //        if(n <= 3){
 //            return n;
 //        }
